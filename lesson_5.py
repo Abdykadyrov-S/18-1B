@@ -59,3 +59,14 @@ git checkout -b <навзвание новой ветки>
 git checkout <навзвание новой ветки>
 
 """
+
+
+"""
+Команды - помощники
+
+git pull
+
+git clone <ссылка на реп>
+
+git status
+"""
