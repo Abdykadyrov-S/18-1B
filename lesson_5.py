@@ -44,3 +44,18 @@ git commit -m "update"
 git push
 
 """
+
+
+
+"""
+Команды для работы с ветками 
+
+git branch 
+
+git branch -M main
+
+git checkout -b <навзвание новой ветки>
+
+git checkout <навзвание новой ветки>
+
+"""
