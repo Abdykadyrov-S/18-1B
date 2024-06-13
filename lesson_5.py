@@ -39,6 +39,6 @@ git push -u origin <название вашей ветки>
 
 git add .
 
-
+git commit -m "update"
 
 """
