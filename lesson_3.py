@@ -7,6 +7,7 @@ class Phone:
         self._password = password # Защищенный
         self.__gallery = gallery # Приватный 
 
+    "@ - декоратор"
     @property
     def gallery(self):
         return self.__gallery

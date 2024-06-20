@@ -1,0 +1,1 @@
+SELECT full_name, rating FROM students
