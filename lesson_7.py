@@ -10,11 +10,11 @@ cursor = connect.cursor()
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS students(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        full_name VARCHAR (30),
-        age INT,
-        is_have BOOLEAN,
+        full_name VARCHAR (30) NOT NULL,
+        age INT DEFAULT NULL,
+        is_have BOOLEAN NOT NULL DEFAULT FALSE,
         direction TEXT,
-        rating DOUBLE (4,2),
+        rating DOUBLE (4,2) DEFAULT 0.0,
         birth_date DATE
         )""")
 
@@ -43,5 +43,5 @@ def all_students():
     students = cursor.fetchall()
     print(students)
 
-all_students()
-# register()
+# all_students()
+register()
